@@ -1,0 +1,31 @@
+{
+  "name": "be-like-toast",
+  "author": "Be-Like",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Be-Like's Vue 3 toast notification library",
+  "scripts": {
+    "build": "vite build",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "vue": "^3.2.40"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.2",
+    "eslint": "^8.25.0",
+    "vite": "^3.1.7",
+    "vitepress": "1.0.0-alpha.20"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/be-like-toast.es.js"
+    }
+  }
+}
