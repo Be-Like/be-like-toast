@@ -1,9 +1,9 @@
 <template>
-  <div>Hello Toast example</div>
+  <toast />
 </template>
 
 <script>
-import Toast from "../../../src/components/Toast.vue";
+import Toast from "../../../src/components/ToastContainer.vue";
 
 export default {
   name: "ToastExample",
